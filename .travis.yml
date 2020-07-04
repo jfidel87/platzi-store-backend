@@ -19,7 +19,8 @@ deploy:
   provider: heroku
   skit-cleanup: true
   keep-history: true
-  api-key: cce666d4-c425-4b81-8141-8436c3d83fa9
+  api-key:
+    secure: "Gj6zlUbiAZg6G+z9gCRMzjLTapnpvff2R0M66V3Bv698xdwyHrtfGJnsPSrIwELTUoJCDCpE3JZsamDzJS3biW1RrwX3VzNp9oxqakNfLkZQAT9NIifVJg97B8kmjIFghw5s/tHelwfkEx1Lnlo1m30B5E440wFoCn51vbdWtTCgQ7hsm44ZIc/XGe6TbBxYOLb+msSddR9L5ZhgrO/uYZ320CYb/Tgvaub68gBeNitO9tKPT/OCZTON4ZSjjalLpKOf0rdlNuuAD56SaLdldYdnnU43hv+5vL+l+kamLGbIaX4RTayZsN/5MKTkL6U4fTo4kb1J8RUPggEcu4QbR//8U7KKrWg2/EJcmxg3ENpfRHk6pQ/MZA+J4HU49g1RXaAL2GkoM5Ief7S9j8W3M27ehkCuHzYHGcH8UmmnZSWyWwaHfT4n2cVUIYgphfbVVQx+e0BVzNF2DdyOh7NvydY7t+NAYc55FSrmo38jIRDUlB35Qp+LNtDgzhWLis2e6cOao7dFKHI4fNykcX3nRZS5SVTVVodOpXdzS+wLlV2Z8PpkJNjeVS5wTx5u8Vu6L9skZohD5tAdsMqjKlVHSjGJlLdpXJ+IvWNXMqudGmBmHzZIugAYgjiUO8STGexlt6zTWkABLwqLeCebkwx8vWHQ3B3tO2YXzPwJIKyYzRw="
   app: platzi-store-backend-jfidel87
   on:
     repo: jfidel87/platzi-store-backend
