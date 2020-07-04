@@ -1,0 +1,25 @@
+language: node_js
+cache:
+  directories:
+    - node_modules
+    - ~/.npm
+node_js:
+  - '12'
+git:
+  depth: 3
+script:
+  - yarn test
+notifications:
+  email:
+    recipients:
+      - jfidel87@gmail.com
+    on_success: always
+    on_failure: always
+deploy:
+  provider: heroku
+  skit-cleanup: true
+  keep-history: true
+  api-key: cce666d4-c425-4b81-8141-8436c3d83fa9
+  app: platzi-store-backend-jfidel87
+  on:
+    repo: jfidel87/platzi-store-backend
